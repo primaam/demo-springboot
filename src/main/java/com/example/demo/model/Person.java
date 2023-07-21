@@ -4,8 +4,6 @@ import java.util.UUID;
 
 import javax.validation.constraints.NotBlank;
 
-import org.springframework.lang.NonNull;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Person {

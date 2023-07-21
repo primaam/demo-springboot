@@ -20,15 +20,8 @@ public class PersonDataAccessService implements PersonDao{
 
     @Override
     public List<Person> selectAllPeople() {
-        // return null;
-        // String name;
         
-        Person personData = new Person(UUID.randomUUID(), "test");
-        return Arrays.asList(personData);
-        // UUID personId = personData.getId();
-        // String personName = personData.getName();
-
-        // return
+        return List.of(new Person(UUID.randomUUID(), "FROM POSGRES DB"));
     }
 
     @Override
